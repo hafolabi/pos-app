@@ -1,0 +1,136 @@
+.whyus{
+    width: 100%;
+    font-family: 'Oswald', sans-serif; 
+    margin: 30px 0px;
+}
+
+.whyusContainer{
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left{
+    flex: 2;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.whyusTitle{
+    font-size: 35px;
+    color:#D70900;
+    text-align: center;
+}
+
+.whyusDesc{
+    margin-top: 30px;
+    text-align: justify;
+    margin-bottom: 30px;
+    line-height: 30px;
+    color: rgb(59, 59, 59);
+    font-size: 16px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+}
+
+.right{
+    flex:3;
+    margin-left: 100px;
+}
+
+.whyusImg{
+    width: 370px;
+    height: 420px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.whyusButton{
+    width: 150px;
+    align-self: center;
+    padding: 10px;
+    border: none;
+    background-color: #D70900;
+    color: white;
+    border-radius: 10px;
+}
+
+@media screen and (max-width:480px) {
+    .whyusContainer{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .left{
+        flex: 1;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .right{
+        flex:3;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .whyusTitle{
+        font-size: 25px;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .whyusImg{
+        width: 320px;
+        height: 400px;
+        margin-top: 50px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    
+    .whyusButton{
+        width: 150px;
+        align-self: center;
+        padding: 10px;
+        border: none;
+        background-color: #D70900;
+        color: white;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (min-width:480px) and (max-width:1024px){
+    .whyusContainer{
+        padding: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .left{
+        flex: 3;
+        margin-left: 30px;
+    }
+
+    .right{
+        flex:3;
+        margin-left: 30px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .whyusImg{
+        width: 300px;
+        height: 370px;
+    }
+
+    .whyusTitle{
+        font-size: 27px;
+        text-align: center;
+    }
+}
